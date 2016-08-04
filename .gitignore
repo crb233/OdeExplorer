@@ -1,0 +1,16 @@
+.vs/
+Data/
+Debug/
+ipch/
+Release/
+
+OdeExplorer/Debug/
+OdeExplorer/Release/
+OdeExplorer/ReadMe.txt
+OdeExplorer/OdeExplorer.vcxproj
+OdeExplorer/OdeExplorer.vcxproj.filters
+OdeExplorer/OdeExplorer.vcxproj.user
+
+OdeExplorer.sdf
+OdeExplorer.sln
+OdeExplorer.VC.opendb
