@@ -18,6 +18,7 @@
 #include <cmath>
 #include <ctime>
 
-#include <CImg.h>
+
+#include <cimg\CImg.h>
 #include <boost\array.hpp>
 #include <boost\numeric\odeint.hpp>

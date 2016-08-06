@@ -327,6 +327,7 @@ void findEvent(state_type &x, num_type &t, event_type type) {
 
 // calculates the squared normal between the initial state and the calculated event state
 num_type calculateEventNorm(const state_type x0) {
+	
 	// copy the initial state and time
 	num_type t = 0;
 	state_type x = x0;

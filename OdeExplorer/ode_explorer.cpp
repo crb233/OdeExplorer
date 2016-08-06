@@ -89,6 +89,18 @@ template <typename num_type, typename state_type>
 num_type ode_explorer<typename num_type, typename state_type>::
 calculate_event_norm(const state_type x0) {
 
+	// copy the initial state and time
+	num_type t = 0;
+	state_type x = x0;
+	num_type sum = 0;
+
+	// find the event and calculate the norm
+	findEvent(x, t, event_type::type_a);
+	for (int i = 0; i < x0.size(); i++) {
+		sum += pow(x0[i] - x[i], 2);
+	}
+
+	return sum;
 }
 
 // generates a matrix of calculated normals
