@@ -8,6 +8,11 @@ This project is intended to be a helpful tool for visualizing the solutions to o
 
 This is mostly a tool through which I can gain more experience in writing C++ code.
 
+## Dependencies
+
+- Boost (odeint.hpp and array.hpp)
+- CImg
+
 ## License
 
 ###MIT License
